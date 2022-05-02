@@ -1,0 +1,37 @@
+{
+  "name": "R1-12.47-1",
+  "coreType": "zmq",
+  "core_name": "R1-12.47-1-core",
+  "loglevel": "TRACE",
+  "period": "15s",
+  "wait_for_current_time_update": false,
+  "endpoints": [
+    {
+      "global": false,
+      "name": "R1_12_47_1_tn_1_mtr_1-EP",
+      "destination": "R1-12.47-1-substation/R1_12_47_1_substation-EP",
+      "type": "string",
+      "info": "{\"publication_info\":{\"object\":\"R1_12_47_1_tn_1_mtr_1\",\"property\":\"measured_real_power\"}}"
+    },
+    {
+      "global": false,
+      "name": "R1_12_47_1_tn_1_mhse_1-EP",
+      "type": "string",
+      "info": "{\"subscription_info\":{\"object\":\"R1_12_47_1_tn_1_mhse_1\",\"property\":\"service_status\"}}"
+    },
+    {
+      "global": false,
+      "name": "R1_12_47_1_tn_2_mtr_1-EP",
+      "destination": "R1-12.47-1-substation/R1_12_47_1_substation-EP",
+      "type": "string",
+      "info": "{\"publication_info\":{\"object\":\"R1_12_47_1_tn_2_mtr_1\",\"property\":\"measured_real_power\"},\"subscription_info\":{\"object\":\"R1_12_47_1_tn_2_mtr_1\",\"property\":\"service_status\"}}"
+    },
+    {
+      "global": false,
+      "name": "R1_12_47_1_tn_2_mtr_2-EP",
+      "destination": "R1-12.47-1-substation/R1_12_47_1_substation-EP",
+      "type": "string",
+      "info": "{\"publication_info\":{\"object\":\"R1_12_47_1_tn_2_mtr_2\",\"property\":\"measured_real_power\"},\"subscription_info\":{\"object\":\"R1_12_47_1_tn_2_mtr_2\",\"property\":\"service_status\"}}"
+    }
+  ]
+}
